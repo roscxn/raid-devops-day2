@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Mock database
 const mockDatabase = [
-  { id: 1, name: 'Alice Johnson', email: 'alice@example.com' },
+  { id: 1, name: 'A Johnson', email: 'alice@example.com' },
   { id: 2, name: 'Bob Smith', email: 'bob@example.com' },
   { id: 3, name: 'Carol Williams', email: 'carol@example.com' },
 ];
