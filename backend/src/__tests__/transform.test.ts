@@ -5,8 +5,7 @@ describe("transformUserData", () => {
   it("should transform user object by splitting full name into first and last name", () => {
     const mockUser = {
       id: 1,
-      first_name: "Alice",
-      last_name: "Johnson",
+      name: "Alice Johnson",
       email: "alice@example.com",
     };
 
